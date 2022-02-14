@@ -3,19 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>Beat Saber Mapping | OrbieVR (me)</title>
+        <link rel="stylesheet" href="./css/one_page_website.css">
     </head>
     <body>
         <!-- NAV-->
-        <div>
-            <div>
-                <nav>
-                    <ul>
-                        <a href="#home" id="link"><li>HOME</li></a>
-                        <a href="#about" id="link"><li>ABOUT</li></a>
-                        <a href="#mapping" id="link"><li>MAPPING</li></a>
-                        <a href="#contact" id="link"><li>CONTACT</li></a>
-                    </ul>
-                </nav>
+        <div class="wrap">
+            <div class="menu-container">
+                <ul class="menu">
+                    <a href="#home" id="link"><li>HOME</li></a>
+                    <a href="#about" id="link"><li>ABOUT</li></a>
+                    <a href="#mapping" id="link"><li>MAPPING</li></a>
+                    <a href="#contact" id="link"><li>CONTACT</li></a>
+                </ul>
             </div>
         </div>
         <!--END NAV-->
@@ -39,7 +38,7 @@
         <section id="about">
             <div class="container">
                 <h1>About Orbie</h1>
-                <div>
+                <div class="flex-container">
 
                     <!--PHOTO CONTAINER 1-->
                     <div class="photo-container">
@@ -62,22 +61,22 @@
         <section id="mapping">
             <div class="container">
                 <h1>Maps Showcase</h1>
-                <div>
+                <div class="flex-container">
                     <!--Video 1-->
-                    <div>
+                    <div class="video-container">
                         <h3 class="white-head">Song: Kobaryo - northern_limit</h3>
                         <iframe src="./videos/Kobaryo - northern_limit.mp4" frameborder="0"></iframe>
                     </div>
                     <!--Video 2-->
-                    <div>
+                    <div class="video-container">
                         <h3 class="white-head">Song: Laur - Animosity</h3>
                         <iframe src="./videos/Laur - Animosity.mp4" frameborder="0"></iframe>
                     </div>
                     <!--Video 3-->
-                    <div>
+                    <div class="video-container">
                         <h3 class="white-head">Song: Kobaryo - Windows 10k</h3>
                         <iframe src="./videos/Kobaryo - Windows 10k.mp4" frameborder="0"></iframe>
-                    </div>
+                    </div class="video-container">
                     <!--Video 4-->
                     <div>
                         <h3 class="white-head">Song: meganeko - Velocity</h3>
@@ -93,7 +92,7 @@
                     <h1 class="heading-padding">Contact Me</h1>
                     <div class="reservation">
                         <h3><span>If you have any questions.</span>
-                            <br>Contact me!
+                            Contact me!
                         </h3>
                         <p class="rsvp-text">
                             Please provide us with your basic contact information.
