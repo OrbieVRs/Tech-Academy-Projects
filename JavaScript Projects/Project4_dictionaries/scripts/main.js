@@ -7,5 +7,5 @@ function my_Dictionary() {
         sound: "Bark!"
     };
     delete Animal.sound;
-    document.getElementById("dictionary").innerHTML = Animal.species;
+    document.getElementById("dictionary").innerHTML = Animal.sound;
 }
