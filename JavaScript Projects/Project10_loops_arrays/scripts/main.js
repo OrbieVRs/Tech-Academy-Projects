@@ -64,4 +64,4 @@ let car = {
     }
 };
 console.log(car.description());                                                     // outputs to console car.description()
-document.getElementById("Car_Object").innerHTML = "" + toString(car.description()); // Uncaught TypeError: Cannot set properties of null (setting 'innerHTML')    I do not know why this occurs
+document.getElementById("Car_Object").innerHTML = toString(car.description()); // Uncaught TypeError: Cannot set properties of null (setting 'innerHTML')    I do not know why this occurs
